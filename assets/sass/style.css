@@ -1,0 +1,202 @@
+.lastDivPadding2 {
+  padding: 10px;
+}
+
+.navbar {
+  margin-left: 100px;
+  margin-right: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+  font-family: "ralewaymedium";
+}
+.navbar .brand-title {
+  /* margin: .5rem; */
+  margin: 0;
+}
+.navbar .navbar-links ul {
+  margin: 0;
+  /*  margin-right: 180px; */
+  padding: 0;
+  display: flex;
+}
+.navbar .navbar-links li {
+  list-style: none;
+}
+.navbar .navbar-links li .social-icon {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 25px;
+}
+.navbar .navbar-links li a {
+  text-decoration: none;
+  color: black;
+  padding: 1rem;
+  display: block;
+}
+.navbar .navbar-links li a .active-state {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 10px;
+}
+.navbar .navbar-links li a:hover {
+  color: orangered;
+}
+.navbar .navbar-links li a.active {
+  color: orangered;
+}
+.navbar .toggle-button {
+  position: absolute;
+  top: 0.75rem;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+.navbar .toggle-button .bar {
+  height: 3px;
+  width: 100%;
+  background-color: black;
+  border-radius: 10px;
+}
+
+header .navbar .logo-img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 60%;
+}
+
+.bilboard-section {
+  padding: 120px;
+  position: relative;
+  overflow-x: hidden;
+}
+.bilboard-section .hero-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+}
+.bilboard-section span {
+  color: #eb692d;
+}
+.bilboard-section h1 {
+  width: 100%;
+  font-size: 60px;
+  font-weight: 700;
+  transform: translateY(-55%);
+  font-family: "rennersemi";
+}
+.bilboard-section .MobiTruck-img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 130%;
+  padding-right: 80px;
+  transform: translateY(-25%);
+}
+
+/* Simba's Code ENDS here! */
+.aims {
+  padding: 100px 0px;
+  position: relative;
+  background-color: black;
+  height: auto;
+}
+.aims .aimsCard {
+  padding: 80px;
+  width: 613px;
+  height: 519px;
+  background: #eb692d;
+}
+.aims .aimsCard span {
+  color: white;
+}
+.aims .aimsCard h2 {
+  font-size: 44px;
+  width: 100%;
+  margin-bottom: 60px;
+  line-height: 1.3;
+  font-family: "rennerbold";
+}
+.aims .aimsCard .quotes {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  right: 69px;
+  margin: 0px 0px 20px;
+}
+.aims .aimsCard h5 {
+  color: white;
+  font-weight: 300;
+  font-family: "rennerbook";
+}
+.aims .aimsHeadText {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin: 40px 0px;
+}
+.aims .aimsHeadText .line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 127px;
+  height: 2px;
+  background-color: #FF7F00;
+}
+.aims .aimsHeadText h3 {
+  color: #FF7F00;
+}
+.aims p {
+  color: white;
+  line-height: 1.9;
+  font-family: "rennerbook";
+}
+
+@media screen and (min-width: 777px) and (max-width: 1025px) {
+  .aims .aimsCard {
+    padding: 61px;
+    width: 457px;
+    height: 587px;
+    background: #eb692d;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .aims .aimsCard {
+    padding: 47px;
+    width: 613px;
+    height: 499px;
+    margin: 0px 40px;
+    background: #eb692d;
+  }
+  .aims .aimsHeadText {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin: 40px 0px;
+  }
+}
+@media screen and (max-width: 567px) {
+  .aims .aimsCard {
+    padding: 25px;
+    font-size: 21px;
+    width: 344px;
+    height: 499px;
+    background: #eb692d;
+  }
+  .aims .aimsCard h2 {
+    font-size: 40px;
+    width: 100%;
+    margin-bottom: 40px;
+    font-family: "rennerbold";
+  }
+  .aims {
+    padding: 40px 0px;
+    position: relative;
+    background-color: black;
+    height: auto;
+  }
+}
