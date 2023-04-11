@@ -1,0 +1,258 @@
+.lastDivPadding2 {
+  padding: 10px;
+}
+
+.navbar {
+  margin-left: 100px;
+  margin-right: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+  font-family: "ralewaymedium";
+}
+.navbar .brand-title {
+  /* margin: .5rem; */
+  margin: 0;
+}
+.navbar .navbar-links ul {
+  margin: 0;
+  /*  margin-right: 180px; */
+  padding: 0;
+  display: flex;
+}
+.navbar .navbar-links li {
+  list-style: none;
+}
+.navbar .navbar-links li .social-icon {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 25px;
+}
+.navbar .navbar-links li a {
+  text-decoration: none;
+  color: black;
+  padding: 1rem;
+  display: block;
+}
+.navbar .navbar-links li a .active-state {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 10px;
+}
+.navbar .navbar-links li a:hover {
+  color: orangered;
+}
+.navbar .navbar-links li a.active {
+  color: orangered;
+}
+.navbar .toggle-button {
+  position: absolute;
+  top: 0.75rem;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+.navbar .toggle-button .bar {
+  height: 3px;
+  width: 100%;
+  background-color: black;
+  border-radius: 10px;
+}
+
+header .navbar .logo-img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 60%;
+}
+
+.bilboard-section {
+  padding: 120px;
+  position: relative;
+  overflow-x: hidden;
+}
+.bilboard-section .hero-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+}
+.bilboard-section span {
+  color: #eb692d;
+}
+.bilboard-section h1 {
+  width: 100%;
+  font-size: 60px;
+  font-weight: 700;
+  transform: translateY(-55%);
+  font-family: "rennersemi";
+}
+.bilboard-section .MobiTruck-img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 130%;
+  padding-right: 80px;
+  transform: translateY(-25%);
+}
+
+.who-section {
+  background-color: black;
+  height: auto;
+  position: relative;
+}
+.who-section .coloredDiv {
+  margin-left: 10%;
+  padding: 90px;
+  width: 550px;
+  height: 500px;
+  background-color: #eb692d;
+  position: absolute;
+  bottom: 770px;
+  /* left: 100px; */
+}
+.who-section .coloredDiv h4 {
+  line-height: 2.3rem;
+}
+.who-section .babyEating-img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 75%;
+}
+.who-section .who-content {
+  padding-top: 300px;
+  margin-left: 10%;
+}
+.who-section .who-content p {
+  color: white;
+}
+.who-section .who-content li {
+  color: white;
+}
+.who-section .who-content .inside-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: end;
+}
+.who-section .counters-rect {
+  gap: 20px;
+  padding: 120px;
+}
+.who-section .meals-calc {
+  padding: 25px;
+  width: 300px;
+  height: 109px;
+  background-color: white;
+}
+.who-section .families-calc {
+  padding: 25px;
+  width: 300px;
+  height: 109px;
+  background-color: white;
+}
+.who-section .target-calc {
+  padding: 25px;
+  width: 550px;
+  height: 109px;
+  color: white;
+  background-color: #eb692d;
+}
+
+.test-section {
+  width: 100vw;
+  height: 100vh;
+  background-color: orangered;
+  padding: 120px;
+}
+.test-section .pbar {
+  background-color: rgba(255, 255, 255, 0.435);
+  border-radius: 15px;
+  width: 200px;
+  height: 10px;
+}
+.test-section .pbar .pbar-inside {
+  width: 100px;
+  height: 10px;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.about-TheMobi {
+  padding: 120px;
+}
+.about-TheMobi .aboutImg-1 {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 100%;
+  height: 70%;
+}
+.about-TheMobi .aboutImg-2 {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 100%;
+  height: 70%;
+}
+.about-TheMobi .lastDivPadding {
+  padding-top: 15px;
+}
+.about-TheMobi .lastDivPadding2 {
+  padding-top: 35px;
+}
+
+.aims-section {
+  background-color: black;
+  padding: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.aims-section .aims-txt {
+  height: 100%;
+  display: flex;
+  transform: translateY(12%);
+}
+.aims-section span {
+  color: #eb692d;
+}
+.aims-section p {
+  color: rgb(208, 208, 208);
+}
+.aims-section .coloredDiv {
+  padding: 90px;
+  width: 550px;
+  height: 500px;
+  background-color: #eb692d;
+}
+.aims-section .coloredDiv p {
+  color: white;
+}
+.aims-section .coloredDiv h2 {
+  line-height: 3rem;
+  letter-spacing: 0.1rem;
+  font-size: 35px;
+  font-weight: 700;
+}
+.aims-section .coloredDiv h2 span {
+  color: white;
+}
+
+.donations-section {
+  padding: 120px;
+}
+.donations-section .donateTo-txt {
+  display: flex;
+  justify-content: end;
+}
+.donations-section h3 {
+  width: 60%;
+}
+.donations-section h3 span {
+  color: #eb692d;
+  font-size: 63px;
+}
+.donations-section p {
+  width: 90%;
+}/*# sourceMappingURL=style.css.map */

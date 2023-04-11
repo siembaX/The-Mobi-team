@@ -1,0 +1,318 @@
+@import './imports/variables';
+@import './imports/resets';
+
+
+.navbar{
+    margin-left: 100px;
+    margin-right: 120px;
+    display: flex;
+     justify-content: space-between;
+     align-items: center;
+     color: black ;
+     font-family: 'ralewaymedium';
+
+     .brand-title{
+         /* margin: .5rem; */
+         margin: 0;
+   
+   }
+
+   .navbar-links{
+
+
+
+    ul{
+        margin: 0;
+       /*  margin-right: 180px; */
+        padding: 0;
+        display: flex;
+    }
+
+    li{
+        list-style: none; 
+
+        .social-icon{
+            object-fit: contain;
+            width: 25px;
+        }
+
+     a{
+        text-decoration: none;
+        color: black;
+        padding: 1rem;
+        display: block ;
+
+        .active-state{
+            object-fit: contain;
+            width: 10px;
+        }
+
+        &:hover{
+            color: orangered;
+        }
+
+        &.active{
+            color: orangered;
+        }
+
+      }
+
+       }
+   }
+
+   .toggle-button{
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+
+    .bar{
+        height: 3px;
+        width: 100%;
+        background-color: black;
+        border-radius: 10px;
+    }
+
+
+}
+
+
+}
+
+header{
+    
+    .navbar{
+
+        .logo-img{
+            object-fit: contain;
+            width: 60%;
+        }
+    }
+
+}
+
+.bilboard-section{
+    padding: 120px;
+    position: relative;
+    overflow-x: hidden;
+
+    .hero-content{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        justify-content: center;
+    }
+
+    span{
+        color: $div-orange;
+    }
+
+    h1{
+        width: 100%;
+        font-size: 60px;
+        font-weight: 700;
+        transform: translateY(-55%);
+        font-family: 'rennersemi';
+    }
+
+    .MobiTruck-img{
+        object-fit: contain;
+        width: 130%;
+        padding-right: 80px;
+        transform: translateY(-25%);
+        
+    }
+
+
+}
+
+.who-section{
+    background-color: black;
+    height: auto;
+    position: relative;
+
+
+    .coloredDiv{
+        margin-left: 10%;
+        padding: 90px;
+        width: 550px;
+        height: 500px;
+        background-color: $div-orange;
+        position: absolute;
+        bottom: 770px;
+        /* left: 100px; */
+
+        h4{
+            line-height: 2.3rem;
+            
+        }
+    }
+    .babyEating-img{
+        object-fit: contain;
+        width: 75%;
+    }
+
+    .who-content{
+        padding-top: 300px;
+        margin-left: 10%;
+
+        p{
+            color: white;
+        }
+
+        li{
+            color: white;
+        }
+
+        .inside-content{
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            justify-content: end;
+        }
+    }
+
+    .counters-rect{
+        gap: 20px;
+        padding: 120px;
+    }
+    .meals-calc{
+        padding: 25px;
+        width: 300px;
+        height: 109px;
+        background-color: white;
+    }
+
+    .families-calc{
+        padding: 25px;
+        width: 300px;
+        height: 109px;
+        background-color: white;
+    }
+
+    .target-calc{
+        padding: 25px;
+        width: 550px;
+        height: 109px;
+        color: white;
+        background-color:$div-orange;
+    }
+}
+
+.test-section{
+    width: 100vw;
+    height: 100vh;
+    background-color: orangered;
+    padding: 120px;
+
+    .pbar{
+        background-color: rgba(255, 255, 255, 0.435);
+        border-radius: 15px;
+        width: 200px;
+        height: 10px;
+
+        .pbar-inside{
+            width: 100px;
+            height: 10px;
+            border-radius: 15px;
+            background-color: white;
+        }
+    }
+}
+
+.about-TheMobi{
+    padding: 120px;
+
+    .aboutImg-1{
+        object-fit: contain;
+        width: 100%;
+        height: 70%;
+    }
+
+    .aboutImg-2{
+        object-fit: contain;
+        width: 100%;
+        height: 70%; 
+    }
+
+    .lastDivPadding{
+        padding-top: 15px;
+    }
+
+    .lastDivPadding2{
+        padding-top: 35px;
+    }
+}
+
+.aims-section{
+    background-color: black;
+    padding: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .aims-txt{
+        height: 100%;
+        display: flex;
+        transform: translateY(12%);
+        
+    }
+
+    span{
+        color: $div-orange;
+    }
+
+    p{
+        color: rgb(208, 208, 208);
+    }
+
+    .coloredDiv{
+       
+        padding: 90px;
+        width: 550px;
+        height: 500px;
+        background-color: $div-orange;
+
+        p{
+            color: white;
+        }
+
+        h2{
+            line-height: 3rem;
+            letter-spacing: .1rem;
+            font-size: 35px;
+            font-weight: 700;
+
+            span{
+                color: white;
+            }
+            
+        }
+    }
+}
+
+.donations-section{
+    padding: 120px;
+
+    .donateTo-txt{
+        display: flex;
+        justify-content: end;
+    }
+
+    h3{
+        width: 60%;
+        span{
+            color: $div-orange;
+            font-size: 63px;
+        }
+    }
+
+    p{
+        width: 90%;
+    }
+}
+
