@@ -1,0 +1,101 @@
+.lastDivPadding2 {
+  padding: 10px;
+}
+
+.navbar {
+  margin-left: 100px;
+  margin-right: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+  font-family: "ralewaymedium";
+}
+.navbar .brand-title {
+  /* margin: .5rem; */
+  margin: 0;
+}
+.navbar .navbar-links ul {
+  margin: 0;
+  /*  margin-right: 180px; */
+  padding: 0;
+  display: flex;
+}
+.navbar .navbar-links li {
+  list-style: none;
+}
+.navbar .navbar-links li .social-icon {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 25px;
+}
+.navbar .navbar-links li a {
+  text-decoration: none;
+  color: black;
+  padding: 1rem;
+  display: block;
+}
+.navbar .navbar-links li a .active-state {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 10px;
+}
+.navbar .navbar-links li a:hover {
+  color: orangered;
+}
+.navbar .navbar-links li a.active {
+  color: orangered;
+}
+.navbar .toggle-button {
+  position: absolute;
+  top: 0.75rem;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+.navbar .toggle-button .bar {
+  height: 3px;
+  width: 100%;
+  background-color: black;
+  border-radius: 10px;
+}
+
+header .navbar .logo-img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 60%;
+}
+
+.bilboard-section {
+  padding: 120px 140px;
+  position: relative;
+  overflow-x: hidden;
+}
+.bilboard-section .hero-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+}
+.bilboard-section span {
+  color: #eb692d;
+}
+.bilboard-section h1 {
+  width: 100%;
+  font-size: 60px;
+  font-weight: 700;
+  transform: translateY(-55%);
+  font-family: "rennersemi";
+}
+.bilboard-section .MobiTruck-img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 130%;
+  padding-right: 80px;
+  transform: translateY(-25%);
+}
+
+/* Simba's Code ENDS here! *//*# sourceMappingURL=style.css.map */
