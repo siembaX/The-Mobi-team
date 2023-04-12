@@ -3,15 +3,15 @@
 @media screen and ( min-width: 777px) and (max-width:1025px){
 
   .bilboard-section{
-    background-color: orangered;
+    background-color: red;
   }
 
   header{
     .navbar{
-
+      transform: translateX(5%);
       .logo-img{
           object-fit: contain;
-          width: 1%;
+          transform: translateX(70%);
 
       }
   }
