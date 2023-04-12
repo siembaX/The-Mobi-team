@@ -237,9 +237,66 @@ footer h5 {
   margin: 20px 0px;
   font-weight: 300;
   font-family: "rennerbook";
+  line-height: 1.3;
 }
 
 .counter {
   animation-duration: 1s;
   animation-delay: 0s;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1025px) {
+  footer .footerLinks ul {
+    display: flex;
+    align-items: flex-end;
+    gap: 57px;
+    padding: 0;
+  }
+  footer .copyright {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 40px 0px;
+  }
+  footer .footerLinks {
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  footer .footerLinks {
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+  }
+  footer .copyright {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 0px;
+  }
+}
+@media screen and (max-width: 576px) {
+  footer .footerLinks {
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+  }
+  footer .copyright {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 0px;
+  }
+  footer .footerLinks ul {
+    display: flex;
+    align-items: flex-end;
+    gap: 35px;
+    padding: 0;
+  }
 }

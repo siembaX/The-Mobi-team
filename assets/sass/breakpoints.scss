@@ -118,4 +118,9 @@ and (-webkit-min-device-pixel-ratio: 3) {
       }
 
   }
+  footer .footerLinks {
+    display: flex; 
+    flex-direction: column;
+    margin-top: 90px;
+}
 }

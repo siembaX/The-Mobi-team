@@ -91,4 +91,9 @@
     color: orangered;
     display: flex;
   }
-}/*# sourceMappingURL=breakpoints.css.map */
+  footer .footerLinks {
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+  }
+}
