@@ -133,4 +133,76 @@ header{
 /* Simba's Code ENDS here! */
 
 
+@import "reset";
+@import "variables";
+@import "mixins";
 
+
+
+#gallery-section{
+  width: 100%;
+   padding: 100px 120px 100px 120px; 
+
+.gallery-content{
+  margin: 120px 0px 40px 0px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  h4{
+    color: $orange ;
+    font-family: oswaldregular ;
+  }
+
+  .line{
+    background-color:$orange ;
+    height: 2px;
+    width: 90px;
+  }
+}
+
+  p{
+    font-family: rennerbook;
+    opacity: 80%;
+  }
+ #image-2{
+  margin-bottom: 15px;
+}
+}
+
+  @media  (min-width:777px)  and  (max-width:1025px) {
+      #mobi-section{
+      padding: 100px 70px 100px 60px;
+    
+      h4{
+        margin: 60px 0px 40px 0px;
+    
+      }
+    } 
+
+}
+
+  @media  (min-width:577px)  and  (max-width:768px) {
+    #mobi-section{
+      padding: 100px 70px 100px 60px;
+    
+      h4{
+        margin: 60px 0px 40px 0px;
+      }
+    } 
+   }
+
+  @media  (max-width:567px) {
+    #mobi-section{
+      padding: 100px 40px 100px 40px;
+    
+      h4{
+        margin: 60px 0px 40px 0px;
+      }
+      #image-3{
+        display: none;
+      }
+    } 
+} 
+
+//Charmaine end
