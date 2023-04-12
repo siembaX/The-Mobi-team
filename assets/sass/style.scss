@@ -246,6 +246,14 @@ footer{
                 list-style: none;
                 color: white;
                 font-family: 'rennersemi';
+                a{
+                    text-decoration: none;
+                    color: white;
+                    &:hover{
+                        color: #FF7F00;
+                    }
+                }
+
             }
           
         }

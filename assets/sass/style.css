@@ -195,6 +195,13 @@ footer .footerLinks ul li {
   color: white;
   font-family: "rennersemi";
 }
+footer .footerLinks ul li a {
+  text-decoration: none;
+  color: white;
+}
+footer .footerLinks ul li a:hover {
+  color: #FF7F00;
+}
 footer .footerLinks h5 {
   color: white;
   font-size: 15px;
