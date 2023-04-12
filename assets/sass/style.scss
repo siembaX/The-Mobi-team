@@ -136,97 +136,168 @@ header{
 
 /* ABOUT */
 
-#about{
+.about{
     background-color: black;
     color: white;
     padding-bottom: 100px;
 
-    .div1{
+    .about-content{
        display: flex;
        justify-content: space-evenly;
        align-items: flex-end;
        position: relative;
        bottom: 110px;
 
-        .sub-divA{
+        .about-text{
 
-            .card1{
+            .about-card{
                 background-color: #FF7F00;
                 color: black;
                 padding: 60px;
                 line-height: 30px;
+                margin-bottom: 100px;
 
-                span{
-                    width: 100px;
-                    font-size: 23px;
+                h3{
+                    
+                    font-size: 28px;
                     font-weight: 700;
                     line-height: 1.8;
+                    font-family: 'rennersemi';
                 }
 
                 p{  
-                    margin-top: 50px;
                     font-size: 14px;
                     opacity: 70%;
+                    margin-top: 20px;
                 } 
             }
 
-            .card2{
+            p,ul{
                 font-size: 14px;
-                padding-top:100px;
                 opacity: 80%;
+                font-family: 'rennersemi';
             }
         }
     }
 
-    .div2{
+    .about-stats{
         display: flex;
         justify-content: center;
         gap: 30px;
         padding:0px 32px;
 
-        span{
-            font-size: 30px;
-            font-weight: 600;
-        }
-
-        .card-a{
-            background-color: white;
-            color: black;
-            padding:20px 30px;
-
-            p{opacity: 70%;}
-        }
-
-        .card-b{
-            display: flex;
-            padding: 20px 0px;
-            justify-content: space-around;
-            background-color: #FF7F00;
-
-            .div-b{
-                padding: 10px;
-                text-align: right;
+            h4{
+                font-size: 30px;
+                font-weight: 600;
             }
 
-            #progressBar {
-                width: 300px;
-                height: 10px;
-                background-color: rgba(253, 249, 249, 0.501);
-                border-radius: 100px;
-              }
-              
-              #myBar {
-                width: 60%;
-                height: 30px;
-                height: 10px;
-                background-color:white;
-                border-radius: 100px;
-                
-              }
+            .meals-card, .families-card{
+                background-color: white;
+                color: black;
+                padding:20px 30px;
 
-        }
+                p{opacity: 70%;}
+            }
+
+            .target-card{
+                display: flex;
+                padding: 20px 0px;
+                justify-content: space-around;
+                background-color: #FF7F00;
+                align-items: center;
+                
+                div:nth-child(2){
+                    text-align: right;
+                }
+
+                #progressBar {
+                    width: 300px;
+                    height: 10px;
+                    background-color: rgba(253, 249, 249, 0.501);
+                    border-radius: 100px;
+                }
+                
+                #myBar {
+                    width: 60%;
+                    height: 30px;
+                    height: 10px;
+                    background-color:white;
+                    border-radius: 100px;
+                    
+                }
+
+            }
     }
 
-}
+
+  /* Large devices (desktops, less than 1200px) */
+ 
+  @media  (min-width:992px) and  (max-width: 1199px) {
+      background-color: blue;
+
+      .about-content .about-text .about-card {padding: 30px;}
+
+      .about-stats {
+        .families-card , .meals-card {padding: 30px 10px ;}
+        .target-card{padding:20px 20px  ;}
+      }
+
+  }
+
+
+
+  
+  /* Medium devices (tablets, less than 992px) */
+ 
+    @media  (min-width:768px) and  (max-width: 991px) {
+        background-color: aqua;
+
+        .about-content{
+            flex-direction: column;
+            bottom: 0px;
+            align-items: center;
+
+            .about-text .about-card{margin-bottom: 20px;}
+        }
+
+        .about-stats{
+            margin-top: 20px;
+            flex-wrap: wrap;
+
+        }
+
+          
+    }
+
+    /* X-Small devices (portrait phones, less than 576px) */
+
+        @media (max-width: 767px){ 
+
+            padding: 20px;
+            background-color:red;
+
+            .about-content{
+                flex-direction: column;
+                bottom: 0px;
+                align-items: center;
+
+                .about-text .about-card{
+                    margin-bottom: 20px;
+                    padding: 20px;
+
+                    h3{font-size: 18px;}
+                }
+            }
+
+            .about-stats{
+                margin-top: 20px;
+                flex-wrap: wrap;}
+
+              .target-card { 
+                flex-direction: column;
+            }
+
+        }
+ }
 
 

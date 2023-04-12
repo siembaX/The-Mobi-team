@@ -100,78 +100,138 @@ header .navbar .logo-img {
 
 /* Simba's Code ENDS here! */
 /* ABOUT */
-#about {
+.about {
   background-color: black;
   color: white;
   padding-bottom: 100px;
+  /* Large devices (desktops, less than 1200px) */
+  /* Medium devices (tablets, less than 992px) */
+  /* X-Small devices (portrait phones, less than 576px) */
 }
-#about .div1 {
+.about .about-content {
   display: flex;
   justify-content: space-evenly;
   align-items: flex-end;
   position: relative;
   bottom: 110px;
 }
-#about .div1 .sub-divA .card1 {
+.about .about-content .about-text .about-card {
   background-color: #FF7F00;
   color: black;
   padding: 60px;
   line-height: 30px;
+  margin-bottom: 100px;
 }
-#about .div1 .sub-divA .card1 span {
-  width: 100px;
-  font-size: 23px;
+.about .about-content .about-text .about-card h3 {
+  font-size: 28px;
   font-weight: 700;
   line-height: 1.8;
+  font-family: "rennersemi";
 }
-#about .div1 .sub-divA .card1 p {
-  margin-top: 50px;
+.about .about-content .about-text .about-card p {
   font-size: 14px;
   opacity: 70%;
+  margin-top: 20px;
 }
-#about .div1 .sub-divA .card2 {
+.about .about-content .about-text p, .about .about-content .about-text ul {
   font-size: 14px;
-  padding-top: 100px;
   opacity: 80%;
+  font-family: "rennersemi";
 }
-#about .div2 {
+.about .about-stats {
   display: flex;
   justify-content: center;
   gap: 30px;
   padding: 0px 32px;
 }
-#about .div2 span {
+.about .about-stats h4 {
   font-size: 30px;
   font-weight: 600;
 }
-#about .div2 .card-a {
+.about .about-stats .meals-card, .about .about-stats .families-card {
   background-color: white;
   color: black;
   padding: 20px 30px;
 }
-#about .div2 .card-a p {
+.about .about-stats .meals-card p, .about .about-stats .families-card p {
   opacity: 70%;
 }
-#about .div2 .card-b {
+.about .about-stats .target-card {
   display: flex;
   padding: 20px 0px;
   justify-content: space-around;
   background-color: #FF7F00;
+  align-items: center;
 }
-#about .div2 .card-b .div-b {
-  padding: 10px;
+.about .about-stats .target-card div:nth-child(2) {
   text-align: right;
 }
-#about .div2 .card-b #progressBar {
+.about .about-stats .target-card #progressBar {
   width: 300px;
   height: 10px;
   background-color: rgba(253, 249, 249, 0.501);
   border-radius: 100px;
 }
-#about .div2 .card-b #myBar {
+.about .about-stats .target-card #myBar {
   width: 60%;
   height: 30px;
   height: 10px;
   background-color: white;
   border-radius: 100px;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .about {
+    background-color: blue;
+  }
+  .about .about-content .about-text .about-card {
+    padding: 30px;
+  }
+  .about .about-stats .families-card, .about .about-stats .meals-card {
+    padding: 30px 10px;
+  }
+  .about .about-stats .target-card {
+    padding: 20px 20px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .about {
+    background-color: aqua;
+  }
+  .about .about-content {
+    flex-direction: column;
+    bottom: 0px;
+    align-items: center;
+  }
+  .about .about-content .about-text .about-card {
+    margin-bottom: 20px;
+  }
+  .about .about-stats {
+    margin-top: 20px;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 767px) {
+  .about {
+    padding: 20px;
+    background-color: red;
+  }
+  .about .about-content {
+    flex-direction: column;
+    bottom: 0px;
+    align-items: center;
+  }
+  .about .about-content .about-text .about-card {
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  .about .about-content .about-text .about-card h3 {
+    font-size: 18px;
+  }
+  .about .about-stats {
+    margin-top: 20px;
+    flex-wrap: wrap;
+  }
+  .about .target-card {
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=style.css.map */
