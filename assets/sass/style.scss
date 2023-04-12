@@ -245,7 +245,7 @@ footer{
             li{
                 list-style: none;
                 color: white;
-                font-family: $text;
+                font-family: 'rennersemi';
             }
           
         }
@@ -254,12 +254,12 @@ footer{
             font-size: 15px;
             margin: 20px 0px;
             font-weight: 300;
-            font-family: $text;
+            font-family: 'rennerbook';
         }
         h4{
             color: white;
             margin: 30px 0px;
-            font-family: $text;
+            font-family: 'rennerbook';
     
         }
         
@@ -288,10 +288,14 @@ h5{
     font-size: 15px;
     margin: 20px 0px;
     font-weight: 300;
-    font-family: $text;
+    font-family: 'rennerbook';
 }
     
 }
+.counter {
+    animation-duration: 1s;
+    animation-delay: 0s;
+  }
 
 
 
