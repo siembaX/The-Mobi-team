@@ -295,6 +295,7 @@ header .navbar .logo-img {
 .flip-this img{
   width: 195px;
   height: 90px;
+  object-fit: contain;
 }
 .flip-container {
   background: transparent;
@@ -308,7 +309,7 @@ header .navbar .logo-img {
   transform-style: preserve-3d;
 }
 .flip-container:hover .flip-this {
-  transition: 0.9s;
+  transition: 2.0s;
   transform: rotateY(360deg);
 }
 
