@@ -2,6 +2,20 @@
 //portrait tablets
 @media screen and ( min-width: 777px) and (max-width:1025px){
 
+  .bilboard-section{
+    background-color: orangered;
+  }
+
+  header{
+    .navbar{
+
+      .logo-img{
+          object-fit: contain;
+          width: 1%;
+
+      }
+  }
+  }
 
 
 }
@@ -16,5 +30,5 @@
 
 @media screen and  (max-width: 567px){
 
-  
+
 }
