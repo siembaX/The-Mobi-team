@@ -70,7 +70,7 @@ header .navbar .logo-img {
 }
 
 .bilboard-section {
-  padding: 110px 120px;
+  padding: 120px;
   position: relative;
   overflow-x: hidden;
 }
@@ -87,7 +87,7 @@ header .navbar .logo-img {
   width: 100%;
   font-size: 60px;
   font-weight: 700;
-  transform: translateY(-55%);
+  transform: translateY(-25%);
   font-family: "rennersemi";
 }
 .bilboard-section .MobiTruck-img {
@@ -95,7 +95,7 @@ header .navbar .logo-img {
      object-fit: contain;
   width: 130%;
   padding-right: 80px;
-  transform: translateY(-25%);
+  transform: translateY(-10%);
 }
 
 /* Simba's Code ENDS here! *//*# sourceMappingURL=style.css.map */
