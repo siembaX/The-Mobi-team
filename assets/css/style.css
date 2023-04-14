@@ -57,10 +57,10 @@
   height: 21px;
 }
 .navbar .toggle-button .bar {
-  height: 3px;
+  height: 4px;
   width: 100%;
-  background-color: black;
-  border-radius: 10px;
+  background-color: #eb692d;
+  border-radius: 15px;
 }
 
 header .navbar .logo-img {

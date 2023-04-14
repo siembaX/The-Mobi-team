@@ -71,15 +71,14 @@
     height: 21px;
 
     .bar{
-        height: 3px;
+        height: 4px;
         width: 100%;
-        background-color: black;
-        border-radius: 10px;
+        background-color:   $div-orange;
+        border-radius: 15px;
     }
 
 
 }
-
 
 }
 
@@ -92,6 +91,8 @@ header{
             width: 60%;
         }
     }
+
+    
 
 }
 
